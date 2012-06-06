@@ -52,6 +52,14 @@ Make a new copy of your installed NetBeans (which will be used to run 'mvn nbm:r
             </properties>
         </profile>
     </profiles>
+    
+### Copying dependencies from your installation to your local Maven repository
+
+When you are not able to use the NetBeans Platform Maven Repository at http://bits.netbeans.org/maven2/
+because you are behind a company repository, e.g. you may use 
+
+    cd nbscala
+    mvn nbm:populate-repository
 
 ### Build all nbms
 
